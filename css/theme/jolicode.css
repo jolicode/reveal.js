@@ -1,27 +1,46 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
 /**
- * Black theme for reveal.js.
+ * Custom theme for JoliCode.com
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ *      _____       __    _    ______                __
+ *     |_   _|     [  |  (_) .' ___  |              |  ]
+ *       | |  .--.  | |  __ / .'   \_|  .--.    .--.| | .---.
+ *   _   | |/ .'`\ \| | [  || |       / .'`\ \/ /'`\' |/ /__\
+ *  | |__' || \__. || |  | |\ `.___.'\| \__. || \__/  || \__.,
+ *  `.____.' '.__.'[___][___]`.____ .' '.__.'  '.__.;__]'.__.'
+ *
+ *
+ * @author dalexandre@jolicode.com
  */
+@font-face {
+  font-family: 'convergenceregular';
+  src: url("../../lib/font/convergence-regular-webfont.eot");
+  src: url("../../lib/font/convergence-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/convergence-regular-webfont.woff") format("woff"), url("../../lib/font/convergence-regular-webfont.ttf") format("truetype"), url("../../lib/font/convergence-regular-webfont.svg#convergenceregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #111111;
-  background-color: #111111; }
+  background: #050607;
+  background: -moz-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #272a2d), color-stop(100%, #050607));
+  background: -webkit-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%);
+  background: -o-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%);
+  background: -ms-radial-gradient(center, circle cover, #272a2d 0%, #050607 100%);
+  background: radial-gradient(center, circle cover, #272a2d 0%, #050607 100%);
+  background-color: #2b2b2b; }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
   color: #eeeeee; }
 
 ::selection {
   color: white;
-  background: #e7ad52;
+  background: #ecc217;
   text-shadow: none; }
 
 /*********************************************
@@ -34,12 +53,12 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eeeeee;
-  font-family: "Montserrat", Impact, sans-serif;
+  color: #f7d325;
+  font-family: "convergenceregular", Impact, sans-serif;
   line-height: 0.9em;
-  letter-spacing: -0.03em;
-  text-transform: none;
-  text-shadow: none; }
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
@@ -48,7 +67,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #e7ad52;
+  color: #ecc217;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
@@ -57,13 +76,13 @@ body {
   transition: color 0.15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #f3d7ac;
+  color: #f7d325;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #d08a1d; }
+  background: #a98a0e; }
 
 /*********************************************
  * IMAGES
@@ -81,7 +100,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #e7ad52;
+  border-color: #ecc217;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -89,31 +108,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #e7ad52; }
+  border-right-color: #ecc217; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #e7ad52; }
+  border-left-color: #ecc217; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #e7ad52; }
+  border-bottom-color: #ecc217; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #e7ad52; }
+  border-top-color: #ecc217; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #f3d7ac; }
+  border-right-color: #f7d325; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #f3d7ac; }
+  border-left-color: #f7d325; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #f3d7ac; }
+  border-bottom-color: #f7d325; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #f3d7ac; }
+  border-top-color: #f7d325; }
 
 /*********************************************
  * PROGRESS BAR
@@ -122,7 +141,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #e7ad52;
+  background: #ecc217;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);

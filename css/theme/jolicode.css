@@ -18,6 +18,27 @@
   font-weight: normal;
   font-style: normal; }
 
+footer.joli {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 20px;
+  z-index: 20;
+  font-family: "Lato", sans-serif;
+  color: #8d8d8d; }
+
+.jolistate .reveal .state-background {
+  background: rgba(0, 0, 0, 0.6); }
+
+.reveal section a img {
+  background: none;
+  border: none;
+  box-shadow: none; }
+
+.reveal section a:hover img {
+  background: none;
+  box-shadow: none; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/

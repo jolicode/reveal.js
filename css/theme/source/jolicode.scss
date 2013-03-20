@@ -70,6 +70,14 @@ footer.joli {
     box-shadow: none;
 }
 
+.reveal section .footnote {
+    margin-top: 100px;
+    font-size: 0.6em;
+    color:#bcbcbc;
+    text-align: right;
+}
+
+
 // Background generator
 @mixin bodyBackground() {
 	@include radial-gradient( rgb(5, 6, 7), rgb(39, 42, 45));

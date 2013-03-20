@@ -77,6 +77,14 @@ footer.joli {
     text-align: right;
 }
 
+.reveal section {
+    .no-caps {
+        text-transform: none;
+    }
+    p {
+        line-height: 1.5em;
+    }
+}
 
 // Background generator
 @mixin bodyBackground() {

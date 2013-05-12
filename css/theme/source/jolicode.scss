@@ -20,6 +20,7 @@
 
 $joli-yellow:       #F7D325;
 $joli-dark-yellow:  #ECC217;
+$complementary:     #25b2f7;
 
 // Include theme-specific fonts
 @font-face {
@@ -77,15 +78,39 @@ footer.joli {
     text-align: right;
 }
 
+.reveal section .emphasis {
+    color: $complementary;
+}
+
 .reveal section {
     .no-caps {
         text-transform: none;
+    }
+    .no-border {
+        border:none;
+        box-shadow: none;
+        background: transparent;
+    }
+    .big-shadow {
+      text-shadow: -5px 5px  25px #000,
+                   5px  -5px 25px #000,
+                   5px  5px  25px #000,
+                   -5px -5px 25px #000
+      ;
     }
     p {
         line-height: 1.5em;
     }
     li {
         padding: 10px 0;
+    }
+    pre {
+        width:100%;
+
+        code {
+            font-size: 1.4em;
+            line-height: 1em;
+        }
     }
 }
 
@@ -97,3 +122,4 @@ footer.joli {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+

@@ -741,7 +741,7 @@ The **basic setup** is for authoring presentations only. The **full setup** give
 
 The core of reveal.js is very easy to install. You'll simply need to download a copy of this repository and open the index.html file directly in your browser.
 
-1. Download the latest version of reveal.js from <https://github.com/hakimel/reveal.js/releases>
+1. Download the latest version of reveal.js from <https://github.com/jolicode/reveal.js/releases>
 
 2. Unzip and replace the example contents in index.html with your own
 
@@ -758,7 +758,7 @@ Some reveal.js features, like external markdown, require that presentations run 
 
 4. Clone the reveal.js repository
 ```
-$ git clone git@github.com:hakimel/reveal.js.git
+$ git clone git@github.com:jolicode/reveal.js.git
 ```
 
 5. Navigate to the reveal.js folder

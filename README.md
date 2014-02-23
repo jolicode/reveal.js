@@ -1,3 +1,26 @@
+# JoliCode reveal.js fork
+
+## How to use
+
+Clone the project into a new repository gh-pages branch,
+rename `index-jolicode.html` into `index.html` and start working!
+
+## What's different
+
+- `index-jolicode.html` demo with specific instructions
+- new theme "jolicode", already set as default
+- the jolicode logo is here: ./lib/font/logo-fond-noir.svg
+- support for footer added:
+
+```html
+<footer class="joli">
+    A presentation about ponies - PonyCon 2013
+</footer>
+```
+
+- custom state: `<section data-state="jolistate">`
+...
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).

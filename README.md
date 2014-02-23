@@ -22,6 +22,8 @@ rename `index-jolicode.html` into `index.html` and start working!
 - new `.emphasis` class displaying blue text
 - no more borders on images and better `<blockquote>` styles
 
+Kiss :sparkling_heart:
+
 ...
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)

@@ -8,7 +8,7 @@ rename `index-jolicode.html` into `index.html` and start working!
 ## What's different
 
 - `index-jolicode.html` demo with specific instructions
-- new theme "jolicode", already set as default
+- new theme "jolicode", already set as default with convergence font loaded locally
 - the jolicode logo is here: ./lib/font/logo-fond-noir.svg
 - support for footer added:
 
@@ -19,6 +19,9 @@ rename `index-jolicode.html` into `index.html` and start working!
 ```
 
 - custom state: `<section data-state="jolistate">`
+- new `.emphasis` class displaying blue text
+- no more borders on images and better `<blockquote>` styles
+
 ...
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)

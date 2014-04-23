@@ -26,9 +26,9 @@ $complementary: #25b2f7;
   font-family: 'convergenceregular';
   src: url('../../lib/font/convergence-regular-webfont.eot');
   src: url('../../lib/font/convergence-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../../lib/font/convergence-regular-webfont.woff') format('woff'),
-       url('../../lib/font/convergence-regular-webfont.ttf') format('truetype'),
-       url('../../lib/font/convergence-regular-webfont.svg#convergenceregular') format('svg');
+  url('../../lib/font/convergence-regular-webfont.woff') format('woff'),
+  url('../../lib/font/convergence-regular-webfont.ttf') format('truetype'),
+  url('../../lib/font/convergence-regular-webfont.svg#convergenceregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -61,19 +61,19 @@ footer.joli {
 
 .big-shadow {
   text-shadow: -5px 5px 25px #000,
-    5px  -5px 25px #000, 5px 5px 25px #000,
-    -5px -5px 25px #000;
+  5px  -5px 25px #000, 5px 5px 25px #000,
+  -5px -5px 25px #000;
 }
 
-.reveal section a img {
-  background: none;
-  border: none;
-  box-shadow: none;
+.reveal section a img, .reveal section img {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .reveal section a:hover img {
-  background: none;
-  box-shadow: none;
+  background: none !important;
+  box-shadow: none !important;
 }
 
 .reveal section .footnote {
@@ -102,6 +102,15 @@ footer.joli {
   li {
     padding: 10px 0;
   }
+
+  p > code, li > code {
+    background-color: #3e3e3e;
+    border: 1px solid #7f7f7f;
+    color: #efefef;
+    font-style: serif;
+    padding: 3px 10px;
+  }
+
   pre {
     width: 100%;
 
@@ -129,7 +138,7 @@ footer.joli {
   }
 
   &.present[data-background] {
-    h1, h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6, p {
       @extend .big-shadow;
     }
   }

@@ -2,7 +2,7 @@
 
 ## How to use
 
-Clone the project into a new repository gh-pages branch,
+Clone the project into a new repository,
 rename `index-jolicode.html` into `index.html` and start working!
 
 ## What's different

@@ -14,8 +14,8 @@
  */
 @font-face {
   font-family: 'convergenceregular';
-  src: url("../../lib/font/convergence-regular-webfont.eot");
-  src: url("../../lib/font/convergence-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/convergence-regular-webfont.woff") format("woff"), url("../../lib/font/convergence-regular-webfont.ttf") format("truetype"), url("../../lib/font/convergence-regular-webfont.svg#convergenceregular") format("svg");
+  src: url("./fonts/convergence-regular-webfont.eot");
+  src: url("./fonts/convergence-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/convergence-regular-webfont.woff") format("woff"), url("./fonts/Convergence-Regular.ttf") format("truetype"), url("./fonts/convergence-regular-webfont.svg#convergenceregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
